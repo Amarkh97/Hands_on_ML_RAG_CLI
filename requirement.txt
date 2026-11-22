@@ -1,0 +1,1 @@
+pip freeze | grep -E "langchain|chromadb|sentence-transformers|python-dotenv|pypdf" > requirements.txt
